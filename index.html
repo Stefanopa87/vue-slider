@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- VueJS -->
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <title>Vue - intro</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" charset="utf-8"></script>
+    </head>
+    <body>
+      <div id="app" class="container">
+            <div class="row">
+                <button @click="prev" class="prev" type="button" name="button">-</button>
+                <img :src="'img/img-' + imgNum + '.jpg'" alt="">
+                <button @click="next" class="next" type="button" name="button">+</button>
+            </div>
+        </div>
+
+
+
+
+    </body>
+</html>

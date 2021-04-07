@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  height: 100vh;
+}
+
+img{
+  height: 500px;
+  width: 80%;
+}
+
+.prev, .next {
+  color: red;
+  transform: translateY(-100%);
+  font-size: 100px;
+  cursor: pointer;
+  padding: 2%;
+}
